@@ -1,0 +1,13 @@
+[
+  {"title": "Hem", "url": "/"},
+  {"title": "Klubben", "children": [
+    {"title": "Kalender", "url": "/kalender"},
+    {"title": "Nyheter", "url": "/nyheter"},
+    {"title": "Träningsavgifter", "url": "/traningsavgifter"}
+  ]},
+  {"title": "Information", "children": [
+    {"title": "Ordlista", "url": "/ordlista"},
+    {"title": "Dojokun", "url": "/dojokun"}
+  ]},
+  {"title": "Kontakta oss", "url": "/kontakt"}
+]

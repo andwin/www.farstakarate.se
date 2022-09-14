@@ -1,0 +1,36 @@
+{
+  "name": "www.farstakarate.se",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "build-static": "next build && next export",
+    "test": "eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andwin/www.farstakarate.se.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andwin/www.farstakarate.se/issues"
+  },
+  "homepage": "https://github.com/andwin/www.farstakarate.se#readme",
+  "dependencies": {
+    "@andwin/eslint-config": "^0.0.13",
+    "next": "^12.3.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.0.1",
+    "@types/node": "18.7.16",
+    "@types/react": "^18.0.19",
+    "eslint-config-next": "^12.3.0",
+    "sass": "^1.54.9"
+  }
+}
