@@ -1,13 +1,22 @@
 .wrapper {
   background: #333;
+  display: grid;
+  grid-template-columns: [logo] 260px [menu] auto;
 }
 
 .logo {
-  padding: 30px;
+  grid-column-start: 1;
+
+  padding: 10px 15px;
   width: 255px;
 }
 
 // Toggle button
+
+.menuButtonContainer {
+  width: 30px;
+  margin: 25px 15px 0 auto;
+}
 
 .menuButton,
 .menuButton::before,
@@ -55,8 +64,15 @@
   display: none;
 }
 
+.menu a, .subMenu span {
+  color: #DDD;
+  padding: 5px;
+  text-decoration: none;
+}
+
 .menuToggle:checked ~ .menu {
-  display: block
+  display: block;
+  padding: 10px 20px;
 }
 
 .subMenuItems {
@@ -65,11 +81,14 @@
 
 .subMenu:hover .subMenuItems {
   display: block;
+  padding-top: 5px;
+  background: #DDD;
 }
 
 .subMenuItems a {
   display: block;
   text-align: left;
+  color: #333;
 }
 
 @media (min-width: 600px) {
@@ -78,17 +97,14 @@
   }
 
   .menu {
+    grid-column-start: 2;
     display: block;
+    padding: 0;
   }
 
   .menu {
     text-align: right;
     padding-right: 5px;
-  }
-
-  .menu a, .subMenu span {
-    display: inline-block;
-    padding: 5px;
   }
 
   .subMenu {
