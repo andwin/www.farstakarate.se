@@ -3,11 +3,26 @@
   {"title": "Klubben", "children": [
     {"title": "Kalender", "url": "/kalender"},
     {"title": "Nyheter", "url": "/nyheter"},
-    {"title": "Träningsavgifter", "url": "/traningsavgifter"}
+    {"title": "Träningsavgifter", "url": "/traningsavgifter"},
+    {"title": "Medlemsregistrering", "url": "/medlemsregistrering"},
+    {"title": "Prova på", "url": "/prova-pa"},
+    {"title": "Frågor & svar", "url": "/fragor-svar"},
+    {"title": "Grupper", "url": "/grupper"},
+    {"title": "Dojos", "url": "/dojos"},
+    {"title": "Gradering", "url": "/gradering"},
+    {"title": "Yudansha", "url": "/yudansha"},
+    {"title": "Tränare", "url": "/tranare"},
+    {"title": "Material", "url": "/material"}
   ]},
   {"title": "Information", "children": [
     {"title": "Ordlista", "url": "/ordlista"},
-    {"title": "Dojokun", "url": "/dojokun"}
+    {"title": "Dojokun", "url": "/dojokun"},
+    {"title": "Onegai-Shimasu", "url": "/onegai-shimasu"},
+    {"title": "Features of Gojuryu Karate do", "url": "/features-of-gojuryu karate do"},
+    {"title": "Kempo Hakku", "url": "/kempo-hakku"},
+    {"title": "San Shumoku", "url": "/san-shumoku"},
+    {"title": "Länkar", "url": "/lankar"},
+    {"title": "Filmer", "url": "/filmer"}
   ]},
   {"title": "Kontakta oss", "url": "/kontakt"}
 ]
